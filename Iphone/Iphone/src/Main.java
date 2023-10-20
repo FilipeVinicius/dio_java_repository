@@ -3,17 +3,17 @@ public class Main {
 
         Iphone novoIphone = new Iphone();
 
-        System.out.println("##### Chamada #####");
+        System.out.println("Chamada");
         novoIphone.ligar();
         novoIphone.atender();
         novoIphone.iniciarCorreioDeVoz();
 
-        System.out.println("##### Navegação #####");
+        System.out.println("Navegação");
         novoIphone.selecionarMusica();
         novoIphone.tocar();
         novoIphone.pausar();
 
-        System.out.println("##### Reproduzir Música #####");
+        System.out.println("Reproduzir Música");
         novoIphone.adicionarNovaAba();
         novoIphone.exibirPagina();
         novoIphone.atualizarPagina();
